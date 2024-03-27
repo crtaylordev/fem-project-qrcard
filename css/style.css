@@ -1,0 +1,56 @@
+/* Universal */
+body {
+    font-family: Outfit, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* QR Card */
+
+.qr-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 498px;
+    margin: 8em auto;
+    padding: 0.16em;
+    /* debugging border
+    border: solid 1px tomato; */
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 4px 4px 0px hsla(0, 0%, 0%, 0.25);
+}
+
+.card-content {
+    width: 288px;
+    text-align: center;
+    line-height: 1.24em;
+    margin-top: 1em;
+}
+
+.qr-image {
+    display: block;
+    height: 288px;
+    border-radius: 20px;
+}
+
+.cardtext-header {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cardtext-details {
+    max-width: 250px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Footer */
+
+.attribution {
+    font-size: 0.88em;
+    text-align: center;
+}
